@@ -1,0 +1,481 @@
+body {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 2552px;   
+    background: white;
+    color: white;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+ /* main container   */
+.container {
+     background: #162332 0% 0% no-repeat padding-box;
+    position: absolute;
+    top: 22px;
+    left: 307px;
+    height: 2452px;   
+    width: 940px;
+}
+
+/*  first part,before first slider   */
+.date {
+    position: absolute;
+    top: 0px;
+    width: 940px;
+    height: 60px;
+    background-color: #203248;
+}
+.dateFirst {
+    position: absolute;
+    left: 305px;
+    font-size: 18px;
+}
+.firstX {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+    left: 885px;
+    top: 0px;
+}
+.firstX:hover {
+    transform: scale(1.06);
+}
+/*text about the page*/
+.slot {
+    border: 4px solid #203248;
+    background-color: #203248;
+    padding: 8px;
+    border-radius: 20px;
+    width: 80px;
+    height: 17px;
+    position: absolute;
+    left: 40px;
+    top: 75px;
+}
+.firstParagrap {
+    position: absolute;
+    left: 35px;
+    top: 135px;
+}
+.firstImg {
+    width: 300px;
+    height: 170px;
+    position: absolute;
+    top: 70px;
+    left: 640px;
+}
+
+.secondParagraph {
+    position: absolute;
+    left: 40px;
+    top: 230px;
+}
+.secondImg {
+    width: 940px;
+    height: 320px;
+    position: absolute;
+    top: 340px;
+    left: 0px;
+}
+/* first slider   */
+.slicer {
+    position: absolute;
+    top: 590px;
+    width: 100%;
+    height: 150px;
+}
+
+.target {
+    width: 25px;
+    height: 25px;
+}
+.child img {
+    width: 100%;
+    height: 150px;
+}
+
+ .parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child {
+    width: 30%;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: none;
+   
+}
+
+ #leftarrow,#rightarrow {
+     display: inline-block;
+     width: 5%;
+}  
+
+.TextON {
+   margin-top: -110px; 
+   text-align: center;
+   font-size: 25px;
+   opacity: 1;
+}
+
+.lari {
+    font-size: 30px; 
+}
+#try {
+    opacity: 2.5;
+}
+
+.backText{
+   position: relative;
+   top: 710px;
+   text-align: center;
+   font-size: 22px;
+}
+
+.tables {
+    position: relative;
+    top: 775px;
+    width: 100%;
+    height: 650px;
+    background-color: #1A293B;
+}
+/*prizes table*/
+.aboveTables {
+    position: relative;
+    top: 880px;
+    left: 218px;
+    width: 518px;
+    height: 40px; 
+    border: 3px solid #1A293B;
+    background: #1A293B 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 13px 13px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.tarigi{
+    margin-left: 30px;
+    margin-right: 25px;
+}
+.only {
+    background: #2E9EA1;
+    border-radius: 13px 13px 0px 0px;
+    margin-left: -20px;
+}
+
+.exactTexts {
+    width: 100%;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.same {
+    margin: 20px;
+    text-align: center;
+}
+
+.bigText {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.exactTables {
+    width: 100%;
+    height: 334px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.FirstRect {
+    width: 415px;
+    height: 380px;
+    background: #203248 0% 0% no-repeat padding-box;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.SecondRect {
+    width: 415px;
+    height: 380px;
+    background: #203248 0% 0% no-repeat padding-box;
+    margin-left: 10px;
+    margin-right: 10px;
+   
+}
+
+.FirsttablesTop {
+   width: 280px;
+   height: 30px;
+   background: #2E9EA1 0% 0% no-repeat padding-box;
+   border-radius: 10px;
+   text-align: center;
+   color: #FFFFFF;
+   padding-top: 5px;
+}
+
+.SecondtablesTop {
+    width: 300px;
+    height: 30px;
+    background: #F19020 0% 0% no-repeat padding-box;
+   border-radius: 10px;
+   text-align: center;
+   color: #FFFFFF;
+   padding-top: 5px;
+}
+.top {
+    margin-left: 8px;
+    background: #227C7E 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding: 8px;
+    border-radius: 15px;
+}
+.bottom {
+    margin-left: 8px;
+    background: #D2770E 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.cont {
+    width: 70px;
+    height: 30px;
+    background: #000000 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+   opacity: 0.3;
+}
+
+.nextCount {
+    width: 150px;
+    height: 30px;
+    background: #000000 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 0.3;
+}
+.placeTable {
+  margin-left: 65px;
+}
+
+.giftTable {
+    margin-left: 220px;
+    margin-top: -35px;
+}
+
+.firstGrid {
+    width: 316px;
+    height: 245px;
+    margin-left: 40px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(6,1fr);
+    grid-gap: 2px;
+    
+}
+.firstLeftReact , .secondleftReact , .thirdLeftReact , .fourthLeftReact , .fifthLeftReact , .sixLeftReact {
+    text-align: center;
+    padding-top: 10px;
+    background: #000000 0% 0% no-repeat padding-box;
+     border-radius: 5px;
+     opacity: 0.5;
+}
+.firstLeftReact {
+    grid-area: 1/1/2/2;
+}
+.secondleftReact {
+    grid-area: 2/1/3/2;
+}
+.thirdLeftReact {
+    grid-area: 3/1/4/2;
+}
+.fourthLeftReact {
+    grid-area: 4/1/4/2;
+}
+.fifthLeftReact {
+    grid-area: 5/1/6/2;
+}
+.sixLeftReact {
+    grid-area: 6/1/7/2;
+}
+.firstRightReact , .secondRightReact , .thirdRightReact , .fourthRightReact , .fifthRightReact , .sixRightReact{
+    text-align: center;
+    padding-top: 10px;
+    background: #000000 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+     opacity: 0.5;
+}
+
+.firstRightReact{
+    grid-area: 1/2/2/3; 
+}
+.secondRightReact {
+    grid-area: 2/2/3/3;
+}
+.thirdRightReact {
+    grid-area: 3/2/4/3;
+}
+.fourthRightReact {
+    grid-area: 4/2/5/3;
+}
+.fifthRightReact {
+    grid-area: 5/2/6/3;
+}
+.sixRightReact {
+    grid-area: 6/2/7/3; 
+}
+
+.plusImage {
+    position: relative;
+    left: 405px;
+    top: -220px;
+}
+.paragphBelow {
+    margin-top: -90px;
+    text-align: center;
+}
+ /* second slider*/
+.sbs {
+    color: white;
+    position: relative;
+    top: 800px;
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.sbsSpan {
+    font-size: 15px;
+}
+
+.secondSlider {
+    position: absolute;
+    top: 1720px; 
+    width: 100%;
+     height: 230px;
+}
+
+.jigo img {
+    width: 100%;
+    height: 230px;
+}
+
+.jigo {
+    width: 25%;
+    margin-left: 3px;
+    margin-right: 3px;
+    display: none;
+}
+.jigo:hover {
+    transform: scale(1.05);
+}
+
+#secondrightArrow,#secondleftArrow {
+    display: inline-block;
+    width: 5%;
+}
+
+.secondparent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* accordion principe*/
+.play {
+    position: relative;
+    width: 100%;
+    background-color: #162332;
+    top: 1100px;
+}
+
+.playParagrap {
+    text-align: center;
+    font-size: 25px;
+}
+.accordion {
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.accordion-item {
+    background: #203248 0% 0% no-repeat padding-box;
+    color: white;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+}
+ 
+.accordion-item-header {
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    min-height: 3.5rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.accordion-item-header::after {
+    content: "\25BE";
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+}
+.accordion-item-header.active::after {
+   transform: rotate(180deg);
+}
+.accordion-item-body {
+    padding: 1rem;
+    line-height: 1.7rem;
+    display: none;
+    background-color: #162332;
+}
+
+.accordion-item-header.active + .accordion-item-body {
+    display: block;
+}
+/*last orange button*/
+.lastOne {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 1060px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #162332;
+    border-top: #70E0B5 5px solid;
+    
+}
+
+.lastButton {
+    margin: 255px;
+    width: 120px;
+    height: 50px;
+    background: #F05A22 0% 0% no-repeat padding-box;
+   border-radius: 5px;
+    opacity: 1;
+    font-size: 15px;
+    color: white;
+}
+.line {
+    width: 100%;
+    height: 35px;
+    position: relative;
+    top: 1060px;
+    background-color: #162332;
+}
+
+
